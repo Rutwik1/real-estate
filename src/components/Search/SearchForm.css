@@ -1,0 +1,57 @@
+.search-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  margin: 3.5px;
+  background-color: #2430af;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #2430af;
+  box-shadow: 0px 0px 10px 5px #0000002e;
+}
+
+.listings-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.listing-card {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.listing-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.listing-info {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.listing-price {
+  font-weight: bold;
+  color: #4caf50;
+}

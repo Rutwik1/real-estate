@@ -1,0 +1,28 @@
+.hero {
+  height: 400px;
+}
+
+.hero-content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  line-height: 0.5rem;
+  font-weight: 600;
+}
+
+.hero button {
+  background-color: #2430af;
+  color: var(--white);
+}
+
+.hero button:hover {
+  box-shadow: 0px 0px 10px 5px #0000002e;
+}
