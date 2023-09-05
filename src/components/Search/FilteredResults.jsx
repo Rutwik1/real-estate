@@ -11,7 +11,6 @@ const FilteredResults = ({ filteredListings }) => {
             <section className="listingss">
                 <div className='listing-containerr'>
 
-
                     {filteredListings.length > 0 && (
                         <div className="listing-containery">
                             {filteredListings.map((listing) => (
